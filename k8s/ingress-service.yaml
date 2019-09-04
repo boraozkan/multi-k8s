@@ -26,7 +26,6 @@ spec:
             backend:
               serviceName: server-cluster-ip-service
               servicePort: 5000
-                  - host: kirazcloud.com
     - host: www.kirazcloud.com 
       http:
         paths:
